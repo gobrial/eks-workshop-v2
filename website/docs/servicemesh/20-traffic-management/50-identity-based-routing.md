@@ -30,6 +30,12 @@ To check Session ID in Chrome:
   * Expand the Cookies dropdown under the Storage section. 
   * Under Cookies, select the website with Path / to see the SESSION ID
 
+To check cookies in Firefox:
+
+  * Right-click and click on Inspect Element to open the developer console.
+  * Go to the Storage tab.
+  * Expand the Cookies menu and select the website to check cookies. On the right side of the  console, you will see the cookies that have been set on the website.
+
 
 NOTE: Make note of the SESSION ID with Path /. This will be used below.
 
