@@ -74,6 +74,4 @@ Once the browser is loaded, you will notice that the grep banner on the displaye
 
 You have successfully configured Istio to route traffic based on user identity.
 
-**Try it out:** Clear cache and obtain new Cookie ID. The routing rule to direct your traffic to `ui-v2` is longer valid and new traffic is now going to `ui-v1`.
-
 
