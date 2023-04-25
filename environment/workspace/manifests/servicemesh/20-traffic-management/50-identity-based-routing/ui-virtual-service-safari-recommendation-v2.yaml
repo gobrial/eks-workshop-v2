@@ -10,8 +10,8 @@ spec:
   http:
   - match:
     - headers:
-        cookie:
-          regex: "SESSIONID=XXX"
+        user-agent:
+          regex: .*Safari.*
     route:
     - destination:
         host: ui
@@ -20,3 +20,4 @@ spec:
     - destination:
         host: ui
         subset: v1
+---
