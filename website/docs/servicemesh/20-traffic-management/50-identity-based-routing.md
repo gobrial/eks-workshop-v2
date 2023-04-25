@@ -64,9 +64,9 @@ Navigate to the following URL from the browser:
 $ echo $ISTIO_IG_HOSTNAME/home
 ```
 
-Test with a Safari (or even Chrome on Mac since it includes Safari in the string). Safari only sees v2 responses from the `ui` service
+Test with a Safari (or even Chrome on Mac since it includes Safari in the string). Safari only sees `ui-v2` responses from the `ui` service
 
-And test with a Firefox browser, it should only see v1 responses from the `ui` service.
+And test with a Firefox browser, it should only see `ui-v1` responses from the `ui` service.
 
 Once the browser is loaded, you will notice that the grep banner on the displayed page will now only route to `ui-v2`.
 
